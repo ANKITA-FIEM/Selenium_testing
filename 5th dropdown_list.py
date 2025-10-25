@@ -32,5 +32,7 @@ for option in select.options:
         print("option is not selected")
 
 time.sleep(3)
+driver.quit()
+
 
 
