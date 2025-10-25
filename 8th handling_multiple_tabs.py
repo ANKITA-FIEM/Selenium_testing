@@ -26,3 +26,6 @@ if current_tab != FirstTab:
     driver.switch_to.window(FirstTab)
 driver.find_element(By.XPATH,"/html/body/header/nav/div/ul/li[2]/a/span").click()
 time.sleep(2)
+
+driver.quit()
+
