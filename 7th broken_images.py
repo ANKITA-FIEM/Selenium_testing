@@ -22,8 +22,9 @@ if broken_images:
     print("List of broken images:", broken_images)
     for broken_image in broken_images:
         print(broken_image)
-
-driver.quit()
 else:
     print("No broken images")
+
+driver.quit()
+
 
