@@ -24,5 +24,6 @@ login_button.click()
 time.sleep(10)
 success_element = driver.find_element(By.CSS_SELECTOR, ".title")
 assert success_element.text == "Products"
-
 print("Successfully logged in.")
+
+driver.quit()
