@@ -11,3 +11,5 @@ title= browser.title
 print(title)
 
 assert "Selenium" in title
+driver.quit()
+
