@@ -25,5 +25,8 @@ if checked_count == expected_checked_count:
 else:
     print("Not Checked")
 
+driver.quit()
+
+
 
 
